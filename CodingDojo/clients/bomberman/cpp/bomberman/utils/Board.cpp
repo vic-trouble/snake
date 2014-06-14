@@ -75,7 +75,7 @@ bool Board::isMyBombermanDead() const {
 }
 
 int Board::boardSize() const {
-	return std::sqrt(board.length());
+	return static_cast<int>(std::sqrt(board.length()));
 }
 
 String Board::boardAsString() const {

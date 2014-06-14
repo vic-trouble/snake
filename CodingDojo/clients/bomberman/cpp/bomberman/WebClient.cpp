@@ -1,4 +1,6 @@
-﻿#include "WebClient.h"
+﻿#pragma warning(disable: 4503)
+
+#include "WebClient.h"
 
 
 WebClient::WebClient(DirectionSolver* ds) : solver(ds)   {
@@ -33,7 +35,7 @@ bool WebClient::connect() {
 	Client::connection_ptr con = client.get_connection(connectionString, err);
 	client.connect(con);
 	size_t status = client.run();
-	return status;
+	return status != 0;
 }
 
 void WebClient::onMessage(Client* c, websocketpp::connection_hdl hdl, message_ptr pMsg) {
