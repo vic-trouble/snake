@@ -1,9 +1,11 @@
 ﻿#ifndef WEBCLIENT_H
 #define WEBCLIENT_H
 
-
+#pragma warning(push)
+#pragma warning(disable: 4996)
 #include <websocketpp/config/asio_no_tls_client.hpp>
 #include <websocketpp/client.hpp>
+#pragma warning(pop)
 
 #include "utils/utils.h"
 #include "DirectionSolver.h"
