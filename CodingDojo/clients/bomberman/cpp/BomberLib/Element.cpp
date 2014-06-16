@@ -19,7 +19,11 @@ String Element::valueOf(Char ch) const {
 	for (auto i : Elements) {
 		if (i.second == ch) return i.first;
 	}
-	throw std::invalid_argument("Element::valueOf(Char ch): No such Elment for " + ch);
+	
+	std::stringstream ss;
+	ss << "Element::valueOf(Char ch): No such Elment for U";
+	ss << std::hex << static_cast<unsigned>(ch);
+	throw std::invalid_argument(ss.str());
 }
 
 bool Element::operator==(const Element& el) const {

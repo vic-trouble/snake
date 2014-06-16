@@ -10,7 +10,7 @@ char* yourName = "noob";
 /////////////////////////////////////////////
 // This is switcher between our and your bot.
 // Good luck !!!
-#if 1
+#if 0
 typedef DumbDirectionSolver Solver;
 #else
 typedef MySolver Solver;
@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
 	} catch (const std::invalid_argument& iarex) {
 		std::cout << "Invalid argument: " << iarex.what() << std::endl;
 		EXITCODE = 2;
-	} catch (websocketpp::lib::error_code e) {
+	} catch (const websocketpp::lib::error_code &e) {
 		std::cout << e.message() << std::endl;
 	} catch (...) {
 		std::cout << "Something's definitely not right..." << std::endl;
