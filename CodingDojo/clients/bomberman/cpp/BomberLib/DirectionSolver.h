@@ -6,6 +6,8 @@
 
 class DirectionSolver {
 public:
+	virtual ~DirectionSolver() {}
+
 	virtual String get(Board board) = 0;
 };
 

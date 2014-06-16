@@ -5,7 +5,8 @@
 
 class Dice {
 public:
-	Dice() {};
+	virtual ~Dice() {};
+
 	virtual int next(int max) = 0;
 };
 
