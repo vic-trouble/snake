@@ -1,4 +1,5 @@
-﻿#include "Element.h"
+﻿#include "stdafx.h"
+#include "Element.h"
 
 Element::Element(Char el) {
 	elem.first = valueOf(el);

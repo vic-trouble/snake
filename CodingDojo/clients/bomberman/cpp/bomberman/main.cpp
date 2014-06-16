@@ -1,19 +1,19 @@
 ﻿#include <iostream>
-#include "utils/RandomDice.h"
+#include "BomberLib/utils/RandomDice.h"
 
 #include "DumbDirectionSolver.h"
-#include "YourDirectionSolver.h"
+#include "MySolver/MySolver.h"
 
 /////////////////////////////////////////////
 // Change your name from "_bot_" to your one;
-char* yourName = "_bot_";
+char* yourName = "noob";
 /////////////////////////////////////////////
 // This is switcher between our and your bot.
 // Good luck !!!
-#if 0
+#if 1
 typedef DumbDirectionSolver Solver;
 #else
-typedef YourDirectionSolver Solver;
+typedef MySolver Solver;
 #endif
 /////////////////////////////////////////////
 

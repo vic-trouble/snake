@@ -37,3 +37,10 @@
 /CodingDojo/sample-servers/java/target
 /CodingDojo/sample-servers/java/*.iml
 
+CodingDojo/clients/bomberman/cpp/ipch/
+CodingDojo/clients/bomberman/cpp/MySolver/Release/
+CodingDojo/clients/bomberman/cpp/Release/
+CodingDojo/clients/bomberman/cpp/Debug/
+CodingDojo/clients/bomberman/cpp/MySolver/Debug/
+CodingDojo/clients/bomberman/cpp/BomberLib/Debug/
+CodingDojo/clients/bomberman/cpp/BomberLib/Release/

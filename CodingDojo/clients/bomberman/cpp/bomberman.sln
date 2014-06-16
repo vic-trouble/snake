@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bomberman", "bomberman\bomberman.vcxproj", "{666BE76C-3AF9-4709-8892-78EF0342DEDF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySolver", "MySolver\MySolver.vcxproj", "{B3B798FF-2C8C-43C0-9413-EB6D736923C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BomberLib", "BomberLib\BomberLib.vcxproj", "{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +19,14 @@ Global
 		{666BE76C-3AF9-4709-8892-78EF0342DEDF}.Debug|Win32.Build.0 = Debug|Win32
 		{666BE76C-3AF9-4709-8892-78EF0342DEDF}.Release|Win32.ActiveCfg = Release|Win32
 		{666BE76C-3AF9-4709-8892-78EF0342DEDF}.Release|Win32.Build.0 = Release|Win32
+		{B3B798FF-2C8C-43C0-9413-EB6D736923C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3B798FF-2C8C-43C0-9413-EB6D736923C1}.Debug|Win32.Build.0 = Debug|Win32
+		{B3B798FF-2C8C-43C0-9413-EB6D736923C1}.Release|Win32.ActiveCfg = Release|Win32
+		{B3B798FF-2C8C-43C0-9413-EB6D736923C1}.Release|Win32.Build.0 = Release|Win32
+		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}.Debug|Win32.Build.0 = Debug|Win32
+		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}.Release|Win32.ActiveCfg = Release|Win32
+		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

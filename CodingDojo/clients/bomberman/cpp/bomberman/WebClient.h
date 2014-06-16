@@ -7,9 +7,9 @@
 #include <websocketpp/client.hpp>
 #pragma warning(pop)
 
-#include "utils/utils.h"
-#include "DirectionSolver.h"
-#include "utils/Board.h"
+#include "BomberLib/utils/utils.h"
+#include "BomberLib/DirectionSolver.h"
+#include "BomberLib/utils/Board.h"
 
 #ifdef _WIN32
 #include <Windows.h>
