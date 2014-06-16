@@ -4,10 +4,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bomberman", "bomberman\bomberman.vcxproj", "{666BE76C-3AF9-4709-8892-78EF0342DEDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F} = {36C8A413-4F51-42AE-8FF7-B03C5BC8467F}
+		{B3B798FF-2C8C-43C0-9413-EB6D736923C1} = {B3B798FF-2C8C-43C0-9413-EB6D736923C1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySolver", "MySolver\MySolver.vcxproj", "{B3B798FF-2C8C-43C0-9413-EB6D736923C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F} = {36C8A413-4F51-42AE-8FF7-B03C5BC8467F}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BomberLib", "BomberLib\BomberLib.vcxproj", "{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{E494E2FC-51A1-48A6-B671-F79783279332}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F} = {36C8A413-4F51-42AE-8FF7-B03C5BC8467F}
+		{B3B798FF-2C8C-43C0-9413-EB6D736923C1} = {B3B798FF-2C8C-43C0-9413-EB6D736923C1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +40,10 @@ Global
 		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}.Debug|Win32.Build.0 = Debug|Win32
 		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}.Release|Win32.ActiveCfg = Release|Win32
 		{36C8A413-4F51-42AE-8FF7-B03C5BC8467F}.Release|Win32.Build.0 = Release|Win32
+		{E494E2FC-51A1-48A6-B671-F79783279332}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E494E2FC-51A1-48A6-B671-F79783279332}.Debug|Win32.Build.0 = Debug|Win32
+		{E494E2FC-51A1-48A6-B671-F79783279332}.Release|Win32.ActiveCfg = Release|Win32
+		{E494E2FC-51A1-48A6-B671-F79783279332}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,12 +48,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>..;$(ProjectDir)\third_party\websocketpp;$(ProjectDir)\third_party\miniboost-1.49;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\third_party\miniboost-1.49\lib;$(OutDir);$(LibraryPath)</LibraryPath>
+    <IncludePath>..;$(ProjectDir)\..\third_party\websocketpp;$(ProjectDir)\..\third_party\miniboost-1.49;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\third_party\miniboost-1.49\lib;$(OutDir);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>..;$(ProjectDir)\third_party\websocketpp;$(ProjectDir)\third_party\miniboost-1.49;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\third_party\miniboost-1.49\lib;$(OutDir);$(LibraryPath)</LibraryPath>
+    <IncludePath>..;$(ProjectDir)\..\third_party\websocketpp;$(ProjectDir)\..\third_party\miniboost-1.49;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\third_party\miniboost-1.49\lib;$(OutDir);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
